@@ -64,9 +64,7 @@ do skanerów i urządzeń przechwytujących ramki obrazu dla Linuksa.
 Summary:	API documentation for Python SANE module
 Summary(pl.UTF-8):	Dokumentacja API modułu Pythona SANE
 Group:		Documentation
-%if "%{_rpmversion}" >= "4.6"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for Python SANE module.
