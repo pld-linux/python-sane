@@ -8,7 +8,7 @@ Summary:	Python 2 SANE module
 Summary(pl.UTF-8):	Moduł SANE dla Pythona 2
 Name:		python-sane
 Version:	2.8.3
-Release:	1
+Release:	2
 License:	MIT-like
 Group:		Libraries/Python
 #Source0Download: https://github.com/python-pillow/Sane/releases
