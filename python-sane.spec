@@ -7,6 +7,7 @@
 Summary:	Python 2 SANE module
 Summary(pl.UTF-8):	Moduł SANE dla Pythona 2
 Name:		python-sane
+# keep 2.8.x here for python2 support
 Version:	2.8.3
 Release:	3
 License:	MIT-like
@@ -21,6 +22,7 @@ BuildRequires:	python-devel >= 1:2.6
 %if %{with python3}
 BuildRequires:	python3-devel >= 1:3.2
 %endif
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 BuildRequires:	sane-backends-devel
